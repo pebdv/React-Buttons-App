@@ -1,4 +1,3 @@
-// 👇️ named export
 function Aber(props){
         return(<> <div>
         <a>oi {props.casa} </a>
@@ -20,7 +19,6 @@ const abe = [{casa : 'quebrada', teto: 'raxado'}];
   );
 }
 
-// 👇️ named export
 export const SmallButton = () => {
   return (
     <button onClick={() => console.log('small button')}>Small button</button>
